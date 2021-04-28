@@ -7,3 +7,25 @@
       {{ mourse.start_date }} </li>
   {% endfor %}
 </ul>
+
+
+<table> 
+  {% if is_paginated %}
+  <tr class='pagination'>
+    {% if page_obj.has_previous %}
+    <td> 
+      <span> <a href="?page={{ page_obj.previous_page_number }}"> Previous </a></span>
+    </td>
+    {% endif %}
+    <td> 
+      <span> Page {{ page.obj_number }} of {{ page_obj.paginator.num_pages }} </span>
+    </td>
+    {% if page_obj.has_next %}
+    <td> 
+      <span> <a href="?page={{ page_obj.next_page_number }}"> Next </a></span>
+    </td>
+    {% endif %}
+  </tr>
+  {% endif %}
+    
+    
