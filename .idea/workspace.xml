@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da2c21a1-91b0-4649-8b07-62d775c92cdc" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/easy_install-3.8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/easy_install.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/pip.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/pip3.8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/pip3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/Scripts/sqlformat.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virt/pyvenv.cfg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rmUN32oIpGY0M1OFepwfsf0GY5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da2c21a1-91b0-4649-8b07-62d775c92cdc" name="Default Changelist" comment="" />
+      <created>1619580717146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619580717146</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1619580780758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619580780758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>
