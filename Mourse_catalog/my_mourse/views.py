@@ -5,14 +5,14 @@ from .models import Mourse
  # Create your views here.
 
 
-class ListView(ListView):
+class MourseListView(ListView):
     model = Mourse
     template_name = 'home.html'
     context_object_name = 'mourse'
     paginate_by = 2 
 
 # Tryout to DELETE
-# class ListView(ListView):
+# class MourseListView(ListView):
 #     model = Mourse
 #     template_name = 'home.html'
    
