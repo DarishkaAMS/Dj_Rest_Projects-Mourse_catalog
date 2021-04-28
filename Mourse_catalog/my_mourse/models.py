@@ -22,10 +22,13 @@ class Mourse(models.Model):
     q_lections = models.IntegerField(default=0)
 #     status = models.CharField(max_length = 10, choices = STATUS_CHOICES, default ='draft')
 
+    class Meta:
+       ordering = ('start_date', )
+    
     def __str__(self):
         return self.title + ' | ' + str(self.author)
-    
-    
+   
+
    
 @receiver(pre_save, sender=Post)
 def pre_save_receiver(sender, instance, *args, **kwargs):
