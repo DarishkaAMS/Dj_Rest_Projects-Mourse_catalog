@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da2c21a1-91b0-4649-8b07-62d775c92cdc" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/easy_install-3.8.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/easy_install.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/pip.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/pip3.8.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/pip3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/Scripts/sqlformat.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virt/pyvenv.cfg" afterDir="false" />
+    <list default="true" id="da2c21a1-91b0-4649-8b07-62d775c92cdc" name="Default Changelist" comment="Add Mource_catalog">
+      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mourse_catalog/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mource_catalog/Mource_catalog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mource_catalog/Mource_catalog/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mource_catalog/Mource_catalog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mource_catalog/Mource_catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mource_catalog/Mource_catalog/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mource_catalog/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,9 +46,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="da2c21a1-91b0-4649-8b07-62d775c92cdc" name="Default Changelist" comment="" />
@@ -52,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619580780758</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Mource_catalog">
+      <created>1619581338047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619581338047</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,6 +90,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add Mource_catalog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Mource_catalog" />
   </component>
 </project>
