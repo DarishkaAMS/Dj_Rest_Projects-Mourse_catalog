@@ -1,31 +1,32 @@
-<h1> Post List </h1>
+{% extends 'base.html' %}
 
-<ul>
-  {% for mourse in object_list %}
-    <li> <a href="{% url 'mourse_detail' mourse.pk %}"> {{ mourse.title }} </a> | {{ mourse.author }} 
-      <br/>
-      {{ mourse.start_date }} </li>
-  {% endfor %}
-</ul>
+{% block title %} Mourse List {% endblock %}
 
+{% block content %}
+  <ul>
+    {% for mourse in object_list %}
+      <li> <a href="{% url 'mourse_detail' mourse.pk %}"> {{ mourse.title }} </a> | {{ mourse.author }} 
+        <br/>
+        {{ mourse.start_date }} </li>
+    {% endfor %}
+  </ul>
 
-<table> 
-  {% if is_paginated %}
-  <tr class='pagination'>
-    {% if page_obj.has_previous %}
-    <td> 
-      <span> <a href="?page={{ page_obj.previous_page_number }}"> Previous </a></span>
-    </td>
+  <table> 
+    {% if is_paginated %}
+    <tr class='pagination'>
+      {% if page_obj.has_previous %}
+      <td> 
+        <span> <a href="?page={{ page_obj.previous_page_number }}"> Previous </a></span>
+      </td>
+      {% endif %}
+      <td> 
+        <span> Page {{ page.obj_number }} of {{ page_obj.paginator.num_pages }} </span>
+      </td>
+      {% if page_obj.has_next %}
+      <td> 
+        <span> <a href="?page={{ page_obj.next_page_number }}"> Next </a></span>
+      </td>
+      {% endif %}
+    </tr>
     {% endif %}
-    <td> 
-      <span> Page {{ page.obj_number }} of {{ page_obj.paginator.num_pages }} </span>
-    </td>
-    {% if page_obj.has_next %}
-    <td> 
-      <span> <a href="?page={{ page_obj.next_page_number }}"> Next </a></span>
-    </td>
-    {% endif %}
-  </tr>
-  {% endif %}
-    
-    
+{% endblock %}
