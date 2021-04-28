@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Fix Pagination">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/create_mourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/create_mourse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/mourse_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/mourse_details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619623847425</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add cards">
+      <created>1619625713927</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619625713927</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +115,7 @@
     <MESSAGE value="Add users and a couple of mourses" />
     <MESSAGE value="Fixing Errors" />
     <MESSAGE value="Fix Pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Pagination" />
+    <MESSAGE value="Add cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add cards" />
   </component>
 </project>
