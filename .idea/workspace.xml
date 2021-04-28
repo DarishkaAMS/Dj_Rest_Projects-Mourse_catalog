@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Fixing Errors">
-      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/migrations/0002_auto_20210428_1816.py" afterDir="false" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Fix Pagination">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/create_mourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/create_mourse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/mourse_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/mourse_details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619622745634</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix Pagination">
+      <created>1619623847425</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619623847425</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +110,7 @@
     <MESSAGE value="Add class Mourse" />
     <MESSAGE value="Add users and a couple of mourses" />
     <MESSAGE value="Fixing Errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing Errors" />
+    <MESSAGE value="Fix Pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Pagination" />
   </component>
 </project>
