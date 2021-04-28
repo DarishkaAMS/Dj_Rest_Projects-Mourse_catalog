@@ -2,7 +2,7 @@
 
 <ul>
   {% for mourse in object_list %}
-    <li> {{ mourse.title }} | {{ mourse.author }} 
+    <li> <a href="{% url 'mourse_detail' mourse.pk %}"> {{ mourse.title }} </a> | {{ mourse.author }} 
       <br/>
       {{ mourse.start_date }} </li>
   {% endfor %}
