@@ -15,4 +15,4 @@ class Mourse(models.Model):
     q_lections = models.IntegerField(default=0)
 
     def __str__(self):
-        return self.title + '|' + self.author
+        return self.title + ' | ' + str(self.author)
