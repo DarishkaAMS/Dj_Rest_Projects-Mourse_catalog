@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style pagination">
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style search" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619626399529</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Style search">
+      <created>1619626452874</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619626452874</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +128,7 @@
     <MESSAGE value="Fix Pagination" />
     <MESSAGE value="Add cards" />
     <MESSAGE value="Style pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style pagination" />
+    <MESSAGE value="Style search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style search" />
   </component>
 </project>
