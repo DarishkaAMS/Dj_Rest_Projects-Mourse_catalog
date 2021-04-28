@@ -6,7 +6,7 @@
   <h2> Create Your Own Mourse </h2>
   <br/> <br/>
   <form method="POST">
-    {% csrf_tocken %}
+    {% csrf_token %}
     {{ form.as_p }}
     <button class="btn btn-primary"> Post </button>
   </form>
