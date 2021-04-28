@@ -15,7 +15,7 @@ from django.urls import reverse
 
 class Mourse(models.Model):
     title = models.CharField(max_length=25)
-    slug = models.SlugField(max_length = 250, null = True, blank = True)
+    # slug = models.SlugField(max_length = 250, null = True, blank = True)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     descr = models.TextField(max_length=255)
     start_date = models.DateField(default=date.today)
@@ -24,18 +24,19 @@ class Mourse(models.Model):
 #     status = models.CharField(max_length = 10, choices = STATUS_CHOICES, default ='draft')
 
     class Meta:
-       ordering = ('start_date', )
+        ordering = ('start_date', )
     
     def __str__(self):
         return self.title + ' | ' + str(self.author)
    
     def get_absolute_url(self):
         return reverse('mourse_detail', args=(str(self.id)))
-   
-@receiver(pre_save, sender=Post)
-def pre_save_receiver(sender, instance, *args, **kwargs):
-   if not instance.slug:
-       instance.slug = unique_slug_generator(instance)
-        
-        
+
+
+# @receiver(pre_save, sender=Post)
+# def pre_save_receiver(sender, instance, *args, **kwargs):
+#     if not instance.slug:
+#         instance.slug = unique_slug_generator(instance)
+#
+#
 # TODO: https://www.geeksforgeeks.org/add-the-slug-field-inside-django-model/

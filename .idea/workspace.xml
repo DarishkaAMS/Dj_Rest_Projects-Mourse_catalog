@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add class Mourse">
-      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/migrations/0001_initial.py" afterDir="false" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add users and a couple of mourses">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +19,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1rnpLO9nTFLW6R9qNsNaheLZGWR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Fix gitignore">
       <created>1619582848489</created>
@@ -50,7 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619583912056</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add users and a couple of mourses">
+      <created>1619584623070</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619584623070</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add users and a couple of mourses" />
+      <created>1619621653632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619621653632</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,6 +97,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fix gitignore" />
     <MESSAGE value="Add class Mourse" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add class Mourse" />
+    <MESSAGE value="Add users and a couple of mourses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add users and a couple of mourses" />
   </component>
 </project>
