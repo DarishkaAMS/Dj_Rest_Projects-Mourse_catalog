@@ -45,5 +45,5 @@ class MourseDetaisView(DetailView, slug):
 class MourseCreateView(CreateView):
     model = Mourse
     template_name = "create_mourse.html"
-    fields = "__all__"
+    fields = ('title', 'author', 'descr', 'q_lections')
     
