@@ -1,1 +1,9 @@
-<h1>Good Morning DarishkaAMS!!!</h1>
+<h1> Post List </h1>
+
+<ul>
+  {% for mourse in object_list %}
+    <li> {{ mourse.title }} | {{ mourse.author }} 
+      <br/>
+      {{ mourse.start_date }} </li>
+  {% endfor %}
+</ul>
