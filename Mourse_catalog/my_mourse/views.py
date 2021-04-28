@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import DetailView, ListView
+from django.views.generic import CreateView, DetailView, ListView
 
 from .models import Mourse
  # Create your views here.
@@ -28,8 +28,7 @@ class MourseDetaisView(DetailView, slug):
         'mourse': q
     }
     return render(request, 'mourse_details.html', context)
-   
-  
+    
 # TOFIX 
 # def detail(request, slug):
 #     q = Post.objects.filter(slug__iexact = slug)
@@ -42,3 +41,9 @@ class MourseDetaisView(DetailView, slug):
 #        'post': q
 #    }
 #    return render(request, 'posts/details.html', context)
+
+class MourseCreateView(CreateView):
+    model = Mourse
+    template_name = "create_mourse.html"
+    fields = "__all__"
+    
