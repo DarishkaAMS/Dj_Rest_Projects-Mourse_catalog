@@ -25,4 +25,12 @@ class Mourse(models.Model):
     def __str__(self):
         return self.title + ' | ' + str(self.author)
     
+    
+   
+@receiver(pre_save, sender=Post)
+def pre_save_receiver(sender, instance, *args, **kwargs):
+   if not instance.slug:
+       instance.slug = unique_slug_generator(instance)
+        
+        
 # TODO: https://www.geeksforgeeks.org/add-the-slug-field-inside-django-model/
