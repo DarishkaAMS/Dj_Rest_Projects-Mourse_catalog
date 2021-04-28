@@ -16,3 +16,8 @@ class MourseListView(ListView):
 #     model = Mourse
 #     template_name = 'home.html'
    
+class MourseDetaisView(DetailView):
+    model = Mourse
+    template_name = 'mourse_details.html'
+   
+  
