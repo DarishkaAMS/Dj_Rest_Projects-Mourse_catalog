@@ -15,8 +15,9 @@
       <br/>
       Total lections: {{ mourse.q_lectures}}
       <hr> <br/>
-      <div>
-        <button class="btn btn-outline-primary"> <a href="{% url 'home' %}" class="btn btn-primary"> Back to list </a></button>
-      </div>
+      <button class="btn btn-outline-secondary">
+        <a href="{% url 'update_mourse' mourse.pk %}" class="btn btn-secondary"> Update </a>
+      </button>
+      <button class="btn btn-outline-primary"> <a href="{% url 'home' %}" class="btn btn-primary"> Back to list </a></button>
     </div>
 {% endblock %}
