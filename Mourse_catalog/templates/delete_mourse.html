@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% block title %} Delete Mourse {% endblock %}
+
+{% block content %}
+  <h2> You are going to delete "{{ mourse.title }}" Mourse </h2>
+  <br/> <br/>
+  <div class="form-group">
+    <form method="POST">
+      {% csrf_token %}
+        <strong> Are you sure you wanna do it? </strong>
+        <hr/><br/>
+    <button class="btn btn-outline-danger"> <div class="btn btn-danger"> Delete </div></button>
+  </div>
+{% endblock %}

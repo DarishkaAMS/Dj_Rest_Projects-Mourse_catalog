@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add mourse update">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style mourse update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/delete_mourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/delete_mourse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619669885695</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Style mourse update">
+      <created>1619670694004</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1619670694004</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +205,7 @@
     <MESSAGE value="Reconnect db" />
     <MESSAGE value="Style the form" />
     <MESSAGE value="Add mourse update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mourse update" />
+    <MESSAGE value="Style mourse update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style mourse update" />
   </component>
 </project>

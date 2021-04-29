@@ -1,6 +1,8 @@
 from django.http import JsonResponse
 from django.shortcuts import render
-from django.views.generic import CreateView, DetailView, ListView, UpdateView
+from django.urls import reverse_lazy
+from django.views.generic import CreateView, DeleteView, DetailView, ListView, UpdateView
+
 
 from .forms import MourseEditForm, MourseForm
 from .models import Mourse
@@ -34,3 +36,9 @@ class MourseUpdateView(UpdateView):
     form_class = MourseEditForm
     template_name = "update_mourse.html"
     # fields = ['title', 'description', 'start_date', 'end_date', 'q_lectures']
+
+
+class MourseDeleteView(DeleteView):
+    model = Mourse
+    template_name = "delete_mourse.html"
+    success_url = reverse_lazy('home')
