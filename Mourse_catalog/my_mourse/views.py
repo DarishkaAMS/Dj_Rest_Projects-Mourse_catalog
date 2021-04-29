@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.shortcuts import render
 from django.views.generic import CreateView, DetailView, ListView, UpdateView
 
-from .forms import MourseForms
+from .forms import MourseEditForm, MourseForm
 from .models import Mourse
 
 
@@ -24,12 +24,13 @@ class MourseDetaisView(DetailView):
 
 class MourseCreateView(CreateView):
     model = Mourse
-    form_class = MourseForms
+    form_class = MourseForm
     template_name = "create_mourse.html"
     # fields = "__all__"
 
 
 class MourseUpdateView(UpdateView):
     model = Mourse
+    form_class = MourseEditForm
     template_name = "update_mourse.html"
-    fields = ['title', 'description', 'start_date', 'end_date', 'q_lectures']
+    # fields = ['title', 'description', 'start_date', 'end_date', 'q_lectures']
