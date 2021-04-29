@@ -2,6 +2,7 @@ from django.http import JsonResponse
 from django.shortcuts import render
 from django.views.generic import CreateView, DetailView, ListView
 
+from .forms import MourseForms
 from .models import Mourse
 
 
@@ -23,5 +24,6 @@ class MourseDetaisView(DetailView):
 
 class MourseCreateView(CreateView):
     model = Mourse
+    form_class = MourseForms
     template_name = "create_mourse.html"
-    fields = ('title', 'author', 'description', 'q_lectures')
+    # fields = "__all__"
