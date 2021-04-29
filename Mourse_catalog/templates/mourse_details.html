@@ -7,13 +7,13 @@
     <div class="card-subtitle mb-2 text-muted">
       <small> By: {{ mourse.author.first_name }} {{ mourse.author.last_name }} </small>
       <hr> <br/>
-      {{ mourse.descr }}
+      {{ mourse.description }}
       <hr> <br/>
       We start: {{ mourse.start_date }}
       <br/>
       We complete: {{ mourse.start_date }}
       <br/>
-      Total lections: {{ mourse.q_lections}}
+      Total lections: {{ mourse.q_lectures}}
       <hr> <br/>
       <div>
         <button class="btn btn-outline-primary"> <a href="{% url 'home' %}" class="btn btn-primary"> Back to list </a></button>
