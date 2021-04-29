@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Reconnect db">
-      <change afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/create_mourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/templates/create_mourse.html" afterDir="false" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style the form">
+      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_catalog/my_mourse/forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619666331771</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Style the form">
+      <created>1619668423735</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1619668423735</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +176,7 @@
     <MESSAGE value="Style search" />
     <MESSAGE value="Add favicon" />
     <MESSAGE value="Reconnect db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reconnect db" />
+    <MESSAGE value="Style the form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style the form" />
   </component>
 </project>
