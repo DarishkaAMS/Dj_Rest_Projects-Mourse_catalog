@@ -27,6 +27,7 @@ def mourse_create_view(request):
         obj.user = request.user
         obj.save()
         form = MourseModelForm()
+        return redirect('/my_mourse')
     template_name = "form.html"
     context = {"form": form}
     return render(request, template_name, context)
@@ -45,6 +46,7 @@ def mourse_update_view(request, slug):
     form = MourseModelForm(request.POST or None, instance=obj)
     if form.is_valid():
         form.save()
+        return redirect('/my_mourse')
     template_name = "form.html"
     context = {"tile": f"Update {obj.title}", "form": form}
     return render(request, template_name, context)

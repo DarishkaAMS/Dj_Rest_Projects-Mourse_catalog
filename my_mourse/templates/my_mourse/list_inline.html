@@ -15,7 +15,7 @@
         {% if not detail %}
 <!--            {% if not mourse.publish_date %} Draft {% endif %}-->
 <!--            <a href="{{ mourse.get_absolute_url }}"> View </a>-->
-            <a href="{% url 'mourse_details' mourse.slug %}"> View </a>
+            <a class="btn btn-outline-primary my-2 my-sm-0" href="{% url 'mourse_details' mourse.slug %}"> View Me </a>
         {% endif %}
     </div>
 </div>
