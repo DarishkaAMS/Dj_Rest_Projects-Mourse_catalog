@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update mourse detail page">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update update &amp; delete mourse page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619779880445</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Update update &amp; delete mourse page">
+      <created>1619780928684</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1619780928684</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +268,7 @@
     <MESSAGE value="Add favicon" />
     <MESSAGE value="Update mourse detail view" />
     <MESSAGE value="Update mourse detail page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update mourse detail page" />
+    <MESSAGE value="Update update &amp; delete mourse page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update update &amp; delete mourse page" />
   </component>
 </project>

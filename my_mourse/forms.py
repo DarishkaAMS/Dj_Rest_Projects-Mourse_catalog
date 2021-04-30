@@ -12,7 +12,17 @@ class MourseForm(forms.Form):
 class MourseModelForm(forms.ModelForm):
     class Meta:
         model = Mourse
-        fields = ['title', 'slug', 'content', 'image', 'start_date', 'end_date', 'q_lectures']
+        fields = ('title', 'slug', 'content', 'image', 'start_date', 'end_date', 'q_lectures')
+        
+        widgets = {
+            'title': forms.TextInput(attrs={'class': 'form-control'}),
+            'slug': forms.TextInput(attrs={'class': 'form-control'}),
+            'content': forms.Textarea(attrs={'class': 'form-control'}),
+            # 'image': forms.ImageField(),
+            'start_date': forms.DateInput(attrs={'class': 'form-control'}),
+            'end_date': forms.DateInput(attrs={'class': 'form-control'}),
+            'q_lectures': forms.NumberInput(attrs={'class': 'form-control'}),
+        }
 
     def clean_title(self, *args, **kwargs):
         instance = self.instance

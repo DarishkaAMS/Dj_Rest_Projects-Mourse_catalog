@@ -5,10 +5,11 @@
     {% if title %}
         <h2>{{ title }}</h2>
     {% endif %}
-    <form method="POST" action="." enctype="multipart/form-data">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit"> Send </button>
-    </form>
 
+    <div class="form-group">
+        <form method="POST" action="." enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button class="btn btn-outline-success my-2 my-sm-0"> Update Me </button>
+    </div>
 {% endblock %}
