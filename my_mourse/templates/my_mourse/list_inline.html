@@ -1,11 +1,11 @@
 <div class="col-12 col-md-6 mx-auto">
     <div class="card-body">
         {% if mourse.image %}
-            <img src="{{ blog_post.image.url }}" class="card-img-top"/>
+            <img src="{{ mourse.image.url }}" class="card-img-top"/>
         {% endif %}
         <h5 class="card-title"> {{ mourse.title }} </h5>
         <p class="card-text">
-            <small class="text-muted"> {{ mourse.publish_date }} </small>
+            <small class="text-muted"> {{ mourse.start_date }} </small>
             {% if truncate %}
                 {{ mourse.content | linebreaks | truncatewords:15 }}
             {% else %}
@@ -13,8 +13,9 @@
             {% endif %}
         </p>
         {% if not detail %}
-            {% if not mourse.publish_date %} Draft {% endif %}
-            <a href="{{ my_mourse.get_absolute_url }}"> View </a>
+<!--            {% if not mourse.publish_date %} Draft {% endif %}-->
+<!--            <a href="{{ mourse.get_absolute_url }}"> View </a>-->
+            <a href="{% url 'mourse_details' mourse.slug %}"> View </a>
         {% endif %}
     </div>
 </div>

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Setup urls">
-      <change afterPath="$PROJECT_DIR$/media/images/myicon.jpg" afterDir="false" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add favicon">
+      <change afterPath="$PROJECT_DIR$/media/images/CR2tRw-W0AECVsr.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_courses/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/list_inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/list_inline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619768289961</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add favicon">
+      <created>1619768704980</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1619768704980</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +240,6 @@
     <MESSAGE value="Add cards" />
     <MESSAGE value="Style pagination" />
     <MESSAGE value="Style search" />
-    <MESSAGE value="Add favicon" />
     <MESSAGE value="Reconnect db" />
     <MESSAGE value="Style the form" />
     <MESSAGE value="Add mourse update" />
@@ -236,6 +248,7 @@
     <MESSAGE value="Update models.py" />
     <MESSAGE value="Update all models and views" />
     <MESSAGE value="Setup urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup urls" />
+    <MESSAGE value="Add favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add favicon" />
   </component>
 </project>

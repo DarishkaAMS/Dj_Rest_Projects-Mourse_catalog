@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1> Our blogs </h1>
+    <h1> Our mourses </h1> <h6> so far </h6>
     <div class="row">
         {% for object in object_list %}
             {% include "my_mourse/list_inline.html" with mourse=object truncate=True detail=False %}

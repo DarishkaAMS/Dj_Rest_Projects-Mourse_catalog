@@ -2,9 +2,14 @@
 
 {% block content %}
 
-    <h1> {{ title }} </h1>
-    {% for i in blog_list %}
-        {% include 'champagne/list_inline.html' with blog_post=i truncate=True detail=False %}
-    {% endfor %}
+<h1> {{ title }} </h1> <h6> by DarishkaAMS </h6>
+<img src="media/images/myicon.jpg"/>
+{% for i in blog_list %}
+    {% include 'my_mourse/list_inline.html' with blog_post=i truncate=True detail=False %}
+{% endfor %}
+<br/>
+<div>
+    <a class="btn btn-primary" href="{% url 'mourse_home' %}"role="button"> Click me </a>
+</div>
 
 {% endblock %}

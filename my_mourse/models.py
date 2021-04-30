@@ -56,7 +56,7 @@ class Mourse(models.Model):
         ordering = ['-start_date']
     
     def get_absolute_url(self):
-        return f"/my_mourse/{self.slug}"
+        return f"my_mourse/{self.slug}"
 
     def get_edit_url(self):
         return f"{self.get_absolute_url()}/edit"
