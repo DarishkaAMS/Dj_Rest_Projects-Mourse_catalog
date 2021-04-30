@@ -1,44 +1,68 @@
 from django.http import JsonResponse
-from django.shortcuts import render
+from django.shortcuts import redirect, render, get_object_or_404
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, DeleteView, DetailView, ListView, UpdateView
 
 
-from .forms import MourseEditForm, MourseForm
+from .forms import MourseForm
 from .models import Mourse
 
 
 # Create your views here.
 
+# JSON
+# def mourse_list_view(request, *args, **kwargs):
+#     query_set = Mourse.objects.all()
+#     mourse_list = [x.serialize() for x in query_set]
+#     data = {
+#         'response': mourse_list
+#     }
+#     return JsonResponse(data)
 
-class MourseListView(ListView):
-    model = Mourse
+def mourse_list_view(request):
+    queryset = Mourse.objects.all()
     template_name = 'home.html'
-    context_object_name = 'mourse'
-    paginate_by = 5
+    # paginate_by = 5
+    context = {"object_list": queryset}
+    return render(request, template_name, context)
 
 
-class MourseDetaisView(DetailView):
-    # slug
-    model = Mourse
+def mourse_detail_view(request, pk):
+    obj = get_object_or_404(Mourse, pk=pk)
     template_name = 'mourse_details.html'
+    context = {"object": obj}
+    return render(request, template_name, context)
 
 
-class MourseCreateView(CreateView):
-    model = Mourse
-    form_class = MourseForm
+def mourse_create_view(request):
+    form = MourseForm(request.POST or None, request.FILES or None)
+    if form.is_valid():
+        obj = form.save(commit=False)
+        obj.save()
+        form = MourseForm()
     template_name = "create_mourse.html"
-    # fields = "__all__"
+    context = {"form": form}
+    return render(request, template_name, context)
 
 
-class MourseUpdateView(UpdateView):
-    model = Mourse
-    form_class = MourseEditForm
-    template_name = "update_mourse.html"
-    # fields = ['title', 'description', 'start_date', 'end_date', 'q_lectures']
+def mourse_update_view(request, pk):
+    obj = get_object_or_404(Mourse, pk=pk)
+    form = MourseForm(request.POST or None)
+    if form.is_valid():
+        obj = form.save(commit=False)
+        obj.save()
+        # reverse_lazy('home')
+        return redirect('home')
+    template_name = 'update_mourse.html'
+    context = {"tile": f"Update {obj.title}", "form": form}
+    return render(request, template_name, context)
 
 
-class MourseDeleteView(DeleteView):
-    model = Mourse
+def mourse_delete_view(request, pk):
+    obj = get_object_or_404(Mourse, pk=pk)
     template_name = "delete_mourse.html"
-    success_url = reverse_lazy('home')
+    if request.method == "POST":
+        obj.delete()
+        return redirect('home')
+    context = {"object": obj}
+    return render(request, template_name, context)
