@@ -13,8 +13,8 @@
             </form>
         {% endif %}
 
-        {% for blog_item in blog_list %}
-            {% include "champagne/list_inline.html" with blog_post=blog_item truncate=True detail=False %}
+        {% for mourse_item in mourse_list %}
+            {% include "my_mourse/list_inline.html" with mourse=mourse_item truncate=True detail=False %}
         {% endfor %}
     </div>
 </div>

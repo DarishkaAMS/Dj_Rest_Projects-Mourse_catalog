@@ -13,6 +13,6 @@ def search_view(request):
     context = {"query": query}
     if query is not None:
         SearchQuery.objects.create(user=user, query=query)
-        blog_list = Mourse.objects.search(query=query)
-        context['blog_list'] = blog_list
+        mourse_list = Mourse.objects.search(query=query)
+        context['mourse_list'] = mourse_list
     return render(request, 'searches/view.html', context)

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style update page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" afterDir="false" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style delete page">
+      <change beforePath="$PROJECT_DIR$/searches/templates/searches/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/searches/templates/searches/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searches/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/searches/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619783419973</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Style delete page">
+      <created>1619784079511</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1619784079511</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +288,7 @@
     <MESSAGE value="Update mourse detail page" />
     <MESSAGE value="Update update &amp; delete mourse page" />
     <MESSAGE value="Style update page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style update page" />
+    <MESSAGE value="Style delete page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style delete page" />
   </component>
 </project>
