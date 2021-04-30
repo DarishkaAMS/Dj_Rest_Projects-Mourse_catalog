@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1> {{ title }} </h1>
+    {% for i in blog_list %}
+        {% include 'champagne/list_inline.html' with blog_post=i truncate=True detail=False %}
+    {% endfor %}
+
+{% endblock %}

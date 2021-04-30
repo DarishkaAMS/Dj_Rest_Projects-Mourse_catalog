@@ -1,2 +1,3 @@
-# Django_Projects-Mourse_catalog
-Course Catalog for Yalantis Python School Application 
+Blog web application with Python, Django, Bootstrap, Javascript, and more
+
+Thanks to CodingEntrepreneurs
