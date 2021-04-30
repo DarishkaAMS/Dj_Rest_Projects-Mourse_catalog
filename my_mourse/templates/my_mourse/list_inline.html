@@ -1,22 +1,20 @@
 <div class="col-12 col-md-6 mx-auto">
-    <div class="card {% if not blog_post.publish_date %} bg-dark text-light {% endif %}">
-        <div class="card-body">
-            {% if blog_post.image %}
-                <img src="{{ blog_post.image.url }}" class="card-img-top"/>
+    <div class="card-body">
+        {% if mourse.image %}
+            <img src="{{ blog_post.image.url }}" class="card-img-top"/>
+        {% endif %}
+        <h5 class="card-title"> {{ mourse.title }} </h5>
+        <p class="card-text">
+            <small class="text-muted"> {{ mourse.publish_date }} </small>
+            {% if truncate %}
+                {{ mourse.content | linebreaks | truncatewords:15 }}
+            {% else %}
+                {{ mourse.content | linebreaks }}
             {% endif %}
-            <h5 class="card-title"> {{ blog_post.title }} </h5>
-            <p class="card-text">
-                <small class="text-muted"> {{ blog_post.publish_date }} </small>
-                {% if truncate %}
-                    {{ blog_post.content | linebreaks | truncatewords:15 }}
-                {% else %}
-                    {{ blog_post.content | linebreaks }}
-                {% endif %}
-            </p>
-            {% if not detail %}
-                {% if not blog_post.publish_date %} Draft {% endif %}
-                <a href="{{ blog_post.get_absolute_url }}"> View </a>
-            {% endif %}
-        </div>
+        </p>
+        {% if not detail %}
+            {% if not mourse.publish_date %} Draft {% endif %}
+            <a href="{{ my_mourse.get_absolute_url }}"> View </a>
+        {% endif %}
     </div>
 </div>

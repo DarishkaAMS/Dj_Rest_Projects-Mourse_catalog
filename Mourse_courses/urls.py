@@ -24,7 +24,7 @@ from searches.views import search_view
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('', home_page_view),
+    path('', home_page_view, name="home"),
     path('my_mourse/', include('my_mourse.urls')),
 
     path('contact/', contact_page_view),

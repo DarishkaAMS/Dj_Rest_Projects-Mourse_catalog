@@ -1,221 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update models.py">
-      <change afterPath="$PROJECT_DIR$/Mourse_courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mourse_courses/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mourse_courses/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mourse_courses/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mourse_courses/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mourse_courses/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/darishkaams_nametag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/darishkaams_nametag_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/blog_page_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/blog_page_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/list_inline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searches/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searches/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searches/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searches/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searches/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searches/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searches/templates/searches/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searches/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searches/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/nav_sidebar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/responsive_rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-viewlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/nav_sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn_test/static/blank.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/blank.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/title.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update all models and views">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/Mourse_catalog/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/migrations/0002_auto_20210428_1816.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/migrations/0003_auto_20210429_0610.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/migrations/0004_auto_20210429_0616.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/migrations/0005_auto_20210429_0829.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/migrations/0006_auto_20210430_0554.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/my_mourse/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/static/darishkaams_nametag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/static/m-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/create_mourse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/delete_mourse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/mourse_details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_catalog/templates/update_mourse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_courses/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_courses/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/list_inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/list_inline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django_Projects-Champagne_Blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -399,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619751312997</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Update all models and views">
+      <created>1619760919744</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1619760919744</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,6 +232,7 @@
     <MESSAGE value="Style mourse update" />
     <MESSAGE value="Add mourse delete" />
     <MESSAGE value="Update models.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update models.py" />
+    <MESSAGE value="Update all models and views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update all models and views" />
   </component>
 </project>
