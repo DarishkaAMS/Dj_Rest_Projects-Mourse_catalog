@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style delete page">
-      <change beforePath="$PROJECT_DIR$/searches/templates/searches/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/searches/templates/searches/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searches/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/searches/views.py" afterDir="false" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add search option">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619784079511</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Add search option">
+      <created>1619784569285</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1619784569285</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +297,7 @@
     <MESSAGE value="Update update &amp; delete mourse page" />
     <MESSAGE value="Style update page" />
     <MESSAGE value="Style delete page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style delete page" />
+    <MESSAGE value="Add search option" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add search option" />
   </component>
 </project>

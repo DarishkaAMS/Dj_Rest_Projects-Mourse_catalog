@@ -4,9 +4,20 @@ from .models import Mourse
 
 
 class MourseForm(forms.Form):
-    title = forms.CharField()
-    slug = forms.SlugField()
-    content = forms.CharField(widget=forms.Textarea)
+    class Meta:
+        model = Mourse
+        fields = ('title', 'content', 'image', 'end_date', 'q_lectures')
+
+        widgets = {
+            'title': forms.TextInput(attrs={'class': 'form-control'}),
+            'content': forms.Textarea(attrs={'class': 'form-control'}),
+            # 'image': forms.ImageField(),
+            'end_date': forms.DateInput(attrs={'class': 'form-control'}),
+            'q_lectures': forms.NumberInput(attrs={'class': 'form-control'}),
+        }
+    # title = forms.CharField()
+    # slug = forms.SlugField()
+    # content = forms.CharField(widget=forms.Textarea)
 
 
 class MourseModelForm(forms.ModelForm):

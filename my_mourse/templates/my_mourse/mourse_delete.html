@@ -2,7 +2,11 @@
 
 {% block content %}
 
-<h2> Are you sure <br/> you want to <strong> delete </strong> <br/> {{ object.title }} Mourse? </h2>
+<h1> Let's decide what to do with {{ object.title }} </h1> <h6> act wisely </h6>
+<br/>
+<br/>
+<br/>
+<h2> Are you sure you want to <strong> delete </strong> <br/> {{ object.title }} Mourse? </h2>
         {% if mourse.image %}
             <img src="{{ mourse.image.url }}" class="card-img-top"/>
         {% endif %}
@@ -13,7 +17,7 @@
 <hr>
 <br>
 <div>
-    <h2> Or have you <br/> changed your mind <br/> and we should keep <br/> {{ object.title }} Mourse? </h2>
+    <h2> Or have you changed your mind <br/> and we should <strong> keep </strong> <br/> {{ object.title }} Mourse? </h2>
     <a class="btn btn-outline-success my-2 my-sm-0" href="{% url 'mourse_home' %}" role="button"> Go home </a>
 </div>
 {% endblock %}
