@@ -2,9 +2,18 @@
 
 {% block content %}
 
-<h1> Are you sure you want to delete {{ object.title }}? </h1>
-
-<form method="POST"> {% csrf_token %}
-    <button class="btn btn-danger"> Yes, delete </button>
+<h2> Are you sure <br/> you want to <strong> delete </strong> <br/> {{ object.title }} Mourse? </h2>
+        {% if mourse.image %}
+            <img src="{{ mourse.image.url }}" class="card-img-top"/>
+        {% endif %}
+<form method="POST">
+    {% csrf_token %}
+    <button class="btn btn-outline-danger my-2 my-sm-0"> Yes, delete </button>
 </form>
+<hr>
+<br>
+<div>
+    <h2> Or have you <br/> changed your mind <br/> and we should keep <br/> {{ object.title }} Mourse? </h2>
+    <a class="btn btn-outline-success my-2 my-sm-0" href="{% url 'mourse_home' %}" role="button"> Go home </a>
+</div>
 {% endblock %}

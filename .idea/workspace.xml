@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style update page">
-      <change afterPath="$PROJECT_DIR$/media/images/coffe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619783268391</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Style update page">
+      <created>1619783419973</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1619783419973</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
