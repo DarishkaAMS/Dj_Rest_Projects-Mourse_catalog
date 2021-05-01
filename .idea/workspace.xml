@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style mourse page">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add alert">
+      <change afterPath="$PROJECT_DIR$/media/images/shutterstock_611229743-bde2e023e33c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/messages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_mourse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -290,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619843254264</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Add alert">
+      <created>1619843972901</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1619843972901</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +318,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add users and a couple of mourses" />
     <MESSAGE value="Fixing Errors" />
     <MESSAGE value="Fix Pagination" />
     <MESSAGE value="Add cards" />
@@ -332,6 +342,7 @@
     <MESSAGE value="Clean JS" />
     <MESSAGE value="Style form &amp; search" />
     <MESSAGE value="Style mourse page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style mourse page" />
+    <MESSAGE value="Add alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add alert" />
   </component>
 </project>

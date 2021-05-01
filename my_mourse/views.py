@@ -28,7 +28,7 @@ def mourse_create_view(request):
         obj.user = request.user
         obj.save()
         form = MourseModelForm()
-        messages.info(request, 'Your Mouse has been changed successfully!')
+        messages.success(request, 'Your Mouse has been created successfully!')
         return redirect('/my_mourse')
     template_name = "form.html"
     context = {"form": form}
@@ -48,7 +48,7 @@ def mourse_update_view(request, slug):
     form = MourseModelForm(request.POST or None, instance=obj)
     if form.is_valid():
         form.save()
-        messages.info(request, 'Your Mouse has been changed successfully!')
+        messages.success(request, 'Your Mouse has been changed successfully!')
         return redirect('/my_mourse')
     template_name = "form.html"
     context = {"tile": f"Update {obj.title}", "form": form}
@@ -61,6 +61,7 @@ def mourse_delete_view(request, slug):
     template_name = "my_mourse/mourse_delete.html"
     if request.method == "POST":
         obj.delete()
+        messages.success(request, 'Your Mouse has been deleted!')
         return redirect('/my_mourse')
     context = {"object": obj}
     return render(request, template_name, context)

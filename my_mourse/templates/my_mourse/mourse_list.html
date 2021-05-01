@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
+    {% include 'my_mourse/messages.html' %}
+
     <h1> Our mourses </h1> <h6> so far </h6>
     <div class="row">
         {% for object in object_list %}
