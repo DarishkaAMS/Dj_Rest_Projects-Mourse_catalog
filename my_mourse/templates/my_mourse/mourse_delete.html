@@ -6,10 +6,8 @@
 <br/>
 <br/>
 <br/>
-<h2> Are you sure you want to <strong> delete </strong> <br/> {{ object.title }} Mourse? </h2>
-        {% if mourse.image %}
-            <img src="{{ mourse.image.url }}" class="card-img-top"/>
-        {% endif %}
+<h3> Are you sure you want to <strong> delete </strong> <br/> {{ object.title }} Mourse? </h3>
+
 <form method="POST">
     {% csrf_token %}
     <button class="btn btn-outline-danger my-2 my-sm-0"> Yes, delete </button>
@@ -17,7 +15,7 @@
 <hr>
 <br>
 <div>
-    <h2> Or have you changed your mind <br/> and we should <strong> keep </strong> <br/> {{ object.title }} Mourse? </h2>
+    <h3> Or have you changed your mind <br/> and we should <strong> keep </strong> <br/> {{ object.title }} Mourse? </h3>
     <a class="btn btn-outline-success my-2 my-sm-0" href="{% url 'mourse_home' %}" role="button"> Go home </a>
 </div>
 {% endblock %}
