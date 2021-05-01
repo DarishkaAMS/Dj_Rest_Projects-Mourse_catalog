@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add search option">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style all pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django_Projects-Build_CRM" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -258,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619784569285</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Style all pages">
+      <created>1619785426350</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1619785426350</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +304,7 @@
     <MESSAGE value="Style update page" />
     <MESSAGE value="Style delete page" />
     <MESSAGE value="Add search option" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add search option" />
+    <MESSAGE value="Style all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style all pages" />
   </component>
 </project>
