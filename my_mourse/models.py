@@ -17,11 +17,11 @@ class MourseQuerySet(models.QuerySet):
     def search(self, query):
         lookup = (
                 Q(title__icontains=query) |
-                Q(content__icontains=query) |
-                Q(slug__icontains=query) |
-                Q(user__first_name__icontains=query) |
-                Q(user__last_name__icontains=query) |
-                Q(user__username__icontains=query)
+                # Q(content__icontains=query) |
+                Q(slug__icontains=query)
+                # | Q(user__first_name__icontains=query) |
+                # Q(user__last_name__icontains=query) |
+                # Q(user__username__icontains=query)
                     )
 
         return self.filter(lookup)

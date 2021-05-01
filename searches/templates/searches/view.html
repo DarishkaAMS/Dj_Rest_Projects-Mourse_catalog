@@ -5,7 +5,7 @@
 <div class="row">
     <div class="col-12 col-8 mx-auto">
         {% if query %}
-            <p class="lead"> You searched for {{ query }} </p>
+            <h2> What I've found for {{ query }} </h2> <br> <h6> or not have found </h6>
         {% else %}
             <form class="form-inline my-2 my-lg-0" action="/search/">
               <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search">
