@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style form &amp; search">
-      <change afterPath="$PROJECT_DIR$/searches/filters.py" afterDir="false" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style mourse page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_courses/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_courses/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/list_inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/list_inline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searches/templates/searches/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/searches/templates/searches/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searches/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/searches/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619839729790</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Style mourse page">
+      <created>1619843254264</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1619843254264</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +307,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add class Mourse" />
     <MESSAGE value="Add users and a couple of mourses" />
     <MESSAGE value="Fixing Errors" />
     <MESSAGE value="Fix Pagination" />
@@ -331,6 +331,7 @@
     <MESSAGE value="Style all pages" />
     <MESSAGE value="Clean JS" />
     <MESSAGE value="Style form &amp; search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style form &amp; search" />
+    <MESSAGE value="Style mourse page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style mourse page" />
   </component>
 </project>

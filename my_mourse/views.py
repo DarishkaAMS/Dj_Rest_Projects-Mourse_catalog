@@ -1,3 +1,4 @@
+from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.admin.views.decorators import staff_member_required
 from django.http import HttpResponse, Http404
@@ -27,6 +28,7 @@ def mourse_create_view(request):
         obj.user = request.user
         obj.save()
         form = MourseModelForm()
+        messages.info(request, 'Your Mouse has been changed successfully!')
         return redirect('/my_mourse')
     template_name = "form.html"
     context = {"form": form}
@@ -46,6 +48,7 @@ def mourse_update_view(request, slug):
     form = MourseModelForm(request.POST or None, instance=obj)
     if form.is_valid():
         form.save()
+        messages.info(request, 'Your Mouse has been changed successfully!')
         return redirect('/my_mourse')
     template_name = "form.html"
     context = {"tile": f"Update {obj.title}", "form": form}
