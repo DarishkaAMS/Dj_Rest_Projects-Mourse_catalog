@@ -18,7 +18,9 @@ class MourseQuerySet(models.QuerySet):
         lookup = (
                 Q(title__icontains=query) |
                 # Q(content__icontains=query) |
-                Q(slug__icontains=query)
+                Q(slug__icontains=query) |
+                Q(start_date__icontains=query) |
+                Q(end_date__icontains=query)
                 # | Q(user__first_name__icontains=query) |
                 # Q(user__last_name__icontains=query) |
                 # Q(user__username__icontains=query)
@@ -53,7 +55,7 @@ class Mourse(models.Model):
     objects = MourseManager()
     
     class Meta:
-        ordering = ['-start_date']
+        ordering = ['start_date']
     
     def get_absolute_url(self):
         return f"/my_mourse/{self.slug}"

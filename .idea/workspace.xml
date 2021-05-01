@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Clean JS">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style form &amp; search">
+      <change afterPath="$PROJECT_DIR$/searches/filters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_courses/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_courses/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_mourse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/list_inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/list_inline.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/searches/templates/searches/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/searches/templates/searches/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searches/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/searches/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -45,7 +49,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django_Projects-Build_CRM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/searches" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\searches" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -273,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619838949527</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Style form &amp; search">
+      <created>1619839729790</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1619839729790</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +306,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fix gitignore" />
     <MESSAGE value="Add class Mourse" />
     <MESSAGE value="Add users and a couple of mourses" />
     <MESSAGE value="Fixing Errors" />
@@ -315,6 +330,7 @@
     <MESSAGE value="Add search option" />
     <MESSAGE value="Style all pages" />
     <MESSAGE value="Clean JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean JS" />
+    <MESSAGE value="Style form &amp; search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style form &amp; search" />
   </component>
 </project>

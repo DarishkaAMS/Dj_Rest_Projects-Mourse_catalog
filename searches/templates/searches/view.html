@@ -12,7 +12,6 @@
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         {% endif %}
-
         {% for mourse_item in mourse_list %}
             {% include "my_mourse/list_inline.html" with mourse=mourse_item truncate=True detail=False %}
         {% endfor %}

@@ -12,7 +12,7 @@
       <li class="nav-item">
         <a class="nav-link" href="{% url 'create_mourse' %}">Create Your Mourse</a>
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown d-none">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
         </a>
@@ -23,12 +23,9 @@
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0" action="/search/">
-      <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search">
+      <input class="form-control mr-sm-2" type="search" name="q" placeholder="Keyword or date" aria-label="Search">
       <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
