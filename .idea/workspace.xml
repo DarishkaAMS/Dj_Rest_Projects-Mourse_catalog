@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update PositiveIntegerField @ models">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add view tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/tests/tests_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/tests/tests_urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/tests/tests_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/tests/tests_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619967135091</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Add view tests">
+      <created>1619968467043</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1619968467043</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,7 +394,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Style mourse update" />
     <MESSAGE value="Add mourse delete" />
     <MESSAGE value="Update models.py" />
     <MESSAGE value="Update all models and views" />
@@ -414,6 +418,7 @@
     <MESSAGE value="Add info @ home &amp; detail page" />
     <MESSAGE value="update models" />
     <MESSAGE value="Update PositiveIntegerField @ models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update PositiveIntegerField @ models" />
+    <MESSAGE value="Add view tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add view tests" />
   </component>
 </project>
