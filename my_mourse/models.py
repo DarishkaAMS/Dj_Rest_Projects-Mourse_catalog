@@ -3,6 +3,7 @@ from django.db import models
 from django.db.models import Q
 from datetime import date
 from django.utils import timezone
+from django.utils.text import slugify
 
 # Create your models here.
 
@@ -45,7 +46,7 @@ class MourseManager(models.Manager):
 class Mourse(models.Model):
     user = models.ForeignKey(User, default=1, null=True, on_delete=models.SET_NULL)
     title = models.CharField(max_length=120)
-    slug = models.SlugField(unique=True)
+    slug = models.SlugField(default='change-me', unique=True)
     content = models.TextField(null=True, blank=True)
     image = models.ImageField(upload_to='images/', blank=True, null=True)
     start_date = models.DateField(default=date.today)
@@ -53,10 +54,14 @@ class Mourse(models.Model):
     q_lectures = models.IntegerField()
 
     objects = MourseManager()
-    
+
     class Meta:
         ordering = ['start_date']
-    
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.title)
+        super(Mourse, self).save(*args, **kwargs)
+
     def get_absolute_url(self):
         return f"/my_mourse/{self.slug}"
 

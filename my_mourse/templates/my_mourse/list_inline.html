@@ -5,7 +5,10 @@
         {% endif %}
         <h5 class="card-title"> {{ mourse.title }} </h5>
         <p class="card-text">
-            <small class="text-muted"> {{ mourse.start_date }} </small>
+            <small class="text-muted"> We start: {{ mourse.start_date }} </small>
+            <br>
+            <small class="text-muted"> We finish: {{ mourse.end_date }} </small>
+            <h6> Q of lectures {{ mourse.q_lectures }} </h6>
             {% if truncate %}
                 {{ mourse.content | linebreaks | truncatewords:15 }}
             {% else %}
