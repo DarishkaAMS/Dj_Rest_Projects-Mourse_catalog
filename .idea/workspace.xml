@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style delete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
-    </list>
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style delete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -312,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619846082533</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Style delete">
+      <created>1619846554199</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1619846554199</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
