@@ -51,7 +51,6 @@ class Mourse(models.Model):
     image = models.ImageField(upload_to='images/', blank=True, null=True)
     start_date = models.DateField(default=date.today)
     end_date = models.DateField(default="2021-12-25", null=True, blank=True)
-    # q_lectures = models.IntegerField()
     q_lectures = models.PositiveIntegerField()
 
     objects = MourseManager()
