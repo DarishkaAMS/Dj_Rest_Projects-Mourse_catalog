@@ -1,4 +1,4 @@
-from django.urls import path, re_path
+from django.urls import path
 
 from my_mourse.views import (mourse_create_view,
                              mourse_delete_view,
@@ -12,5 +12,4 @@ urlpatterns = [
     path('<str:slug>/edit/', mourse_update_view, name='update_mourse'),
     path('<str:slug>/delete/', mourse_delete_view, name='delete_mourse'),
     path('<str:slug>/', mourse_detail_view, name='mourse_details'),
-
 ]

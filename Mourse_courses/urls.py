@@ -17,7 +17,7 @@ from django.conf import settings
 from django.contrib import admin
 from django.urls import include, path, re_path
 
-from .views import (about_page_view, contact_page_view, home_page_view)
+from .views import home_page_view
 from searches.views import search_view
 
 
@@ -26,11 +26,6 @@ urlpatterns = [
 
     path('', home_page_view, name="home"),
     path('my_mourse/', include('my_mourse.urls')),
-
-    path('contact/', contact_page_view),
-    re_path(r'^about/$', about_page_view),
-    re_path(r'^pages?/$', about_page_view),
-
     path('search/', search_view)
 ]
 

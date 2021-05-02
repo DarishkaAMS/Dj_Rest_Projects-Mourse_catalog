@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Style delete" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add requirements">
+      <change afterPath="$PROJECT_DIR$/my_mourse/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_mourse/tests/tests_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_mourse/tests/tests_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_mourse/tests/tests_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_mourse/tests/tests_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_courses/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_courses/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_courses/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -40,9 +51,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/searches" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mourse_courses" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\Mourse_courses" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\searches" />
     </key>
@@ -315,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619846554199</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Style delete">
+      <created>1619961704953</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1619961704953</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add requirements">
+      <created>1619961956595</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1619961956595</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +360,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add cards" />
     <MESSAGE value="Style pagination" />
     <MESSAGE value="Style search" />
     <MESSAGE value="Reconnect db" />
@@ -357,6 +384,7 @@
     <MESSAGE value="Add alert" />
     <MESSAGE value="Style alert" />
     <MESSAGE value="Style delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style delete" />
+    <MESSAGE value="Add requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add requirements" />
   </component>
 </project>
