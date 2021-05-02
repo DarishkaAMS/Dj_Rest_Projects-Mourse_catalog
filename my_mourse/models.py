@@ -52,6 +52,7 @@ class Mourse(models.Model):
     start_date = models.DateField(default=date.today)
     end_date = models.DateField(default="2021-12-25", null=True, blank=True)
     q_lectures = models.IntegerField()
+    n_lectures = models.PositiveIntegerField()
 
     objects = MourseManager()
 
