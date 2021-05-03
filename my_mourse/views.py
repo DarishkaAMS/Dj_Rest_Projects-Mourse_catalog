@@ -8,9 +8,9 @@ from django.shortcuts import redirect, render, get_object_or_404
 from django.template.loader import get_template
 from django.views.decorators.csrf import csrf_exempt
 
-from rest_framework.decorators import api_view, permission_classes
-# from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
+from rest_framework.response import Response
+from rest_framework.decorators import api_view, permission_classes
 
 from .forms import MourseForm, MourseModelForm
 from .models import Mourse
@@ -21,10 +21,19 @@ from .serializers import MourseSerializer
 @csrf_exempt
 # @permission_classes([IsAuthenticated])
 def mourse_list_view(request):
-    # user = request.user.id
-    mourses = Mourse.objects.all()
-    serializer = MourseSerializer(mourses, many=True)
-    return JsonResponse({'mourses': serializer.data}, safe=False, status=status.HTTP_200_OK)
+    # # user = request.user.id
+    # mourses = Mourse.objects.all()
+    # serializer = MourseSerializer(mourses, many=True)
+    # return JsonResponse({'mourses': serializer.data}, safe=False, status=status.HTTP_200_OK)
+    try:
+        mourse = Mourse.objects.all()
+    except Mourse.DoesNotExist:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+    if request.method == 'GET':
+        serializer = MourseSerializer(mourse, many=True)
+        return Response(serializer.data)
+
+
 
 
 # @api_view(["POST"])
@@ -51,9 +60,13 @@ def mourse_list_view(request):
 @api_view(["GET"])
 @csrf_exempt
 def mourse_detail_view(request, slug):
-    mourse = Mourse.objects.get(slug=slug)
-    serializer = MourseSerializer(mourse)
-    return JsonResponse({'mourse': serializer.data}, safe=False, status=status.HTTP_200_OK)
+    try:
+        mourse = Mourse.objects.get(slug=slug)
+    except Mourse.DoesNotExist:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+    if request.method == 'GET':
+        serializer = MourseSerializer(mourse)
+        return Response(serializer.data)
 
 
 @api_view(["PUT"])
