@@ -6,7 +6,7 @@ from my_mourse.forms import MourseForm
 
 class TestForm(TestCase):
 
-    def test_expense_form_valid_data(self):
+    def test_mourse_form_valid_data(self):
         form = MourseForm(data={
             'title': 'dummy mourse',
             'user': get_user_model().objects.first(),
