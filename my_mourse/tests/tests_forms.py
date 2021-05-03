@@ -14,4 +14,4 @@ class TestForm(TestCase):
             'q_lectures': 5
         })
 
-        self.assertEquals(form.is_valid(), True)
+        self.assertTrue(form.is_valid())
