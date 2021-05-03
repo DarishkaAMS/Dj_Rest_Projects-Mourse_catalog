@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update JsonResponse @ mourse list &amp; detail">
-      <change afterPath="$PROJECT_DIR$/TODELETE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_mourse/api_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update JsonResponse @ mourse update">
+      <change afterPath="$PROJECT_DIR$/media/images/shutterstock_315465929.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/shutterstock_315465929_J0bfPtb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/shutterstock_315465929_T0sfsLc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/shutterstock_315465929_afJzgLe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/shutterstock_315465929_isrXP1G.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/shutterstock_315465929_mgtyEV9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/api_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +65,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00004" summary="Add class Mourse">
-      <created>1619583912056</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1619583912056</updated>
-    </task>
     <task id="LOCAL-00005" summary="Add users and a couple of mourses">
       <created>1619584623070</created>
       <option name="number" value="00005" />
@@ -412,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620048622718</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Update JsonResponse @ mourse update">
+      <created>1620051075181</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1620051075181</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +432,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update mourse detail page" />
     <MESSAGE value="Update update &amp; delete mourse page" />
     <MESSAGE value="Style update page" />
     <MESSAGE value="Style delete page" />
@@ -454,6 +456,7 @@
     <MESSAGE value="Add setyp &amp; test_list_view_GET @ tests_views.py" />
     <MESSAGE value="Add JsonResponse @ mourse list &amp; detail" />
     <MESSAGE value="Update JsonResponse @ mourse list &amp; detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update JsonResponse @ mourse list &amp; detail" />
+    <MESSAGE value="Update JsonResponse @ mourse update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update JsonResponse @ mourse update" />
   </component>
 </project>

@@ -1,10 +1,12 @@
 from django.urls import path
 # api_views
-from my_mourse.views import (mourse_create_view,
-                             mourse_delete_view,
-                             mourse_detail_view,
-                             mourse_list_view,
-                             mourse_update_view)
+# views
+
+from my_mourse.api_views import (mourse_create_view,
+                                 mourse_delete_view,
+                                 mourse_detail_view,
+                                 mourse_list_view,
+                                 mourse_update_view)
 
 urlpatterns = [
     path('', mourse_list_view, name='mourse_home'),

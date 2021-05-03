@@ -25,6 +25,7 @@ def mourse_list_view(request):
         mourse = Mourse.objects.all()
     except Mourse.DoesNotExist:
         return Response(status=status.HTTP_404_NOT_FOUND)
+
     if request.method == 'GET':
         serializer = MourseSerializer(mourse, many=True)
         return Response(serializer.data)
@@ -53,6 +54,7 @@ def mourse_detail_view(request, slug):
         mourse = Mourse.objects.get(slug=slug)
     except Mourse.DoesNotExist:
         return Response(status=status.HTTP_404_NOT_FOUND)
+
     if request.method == 'GET':
         serializer = MourseSerializer(mourse)
         return Response(serializer.data)
@@ -65,6 +67,7 @@ def mourse_update_view(request, slug):
         mourse = Mourse.objects.get(slug=slug)
     except Mourse.DoesNotExist:
         return Response(status=status.HTTP_404_NOT_FOUND)
+
     if request.method == 'PUT':
         serializer = MourseSerializer(mourse, data=request.data)
         data = {}
@@ -76,13 +79,21 @@ def mourse_update_view(request, slug):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
+@api_view(["DELETE", ])
 @staff_member_required
 def mourse_delete_view(request, slug):
-    obj = get_object_or_404(Mourse, slug=slug)
-    template_name = "my_mourse/mourse_delete.html"
-    if request.method == "POST":
-        obj.delete()
-        messages.success(request, 'Your Mouse has been deleted!')
-        return redirect('/my_mourse')
-    context = {"object": obj}
-    return render(request, template_name, context)
+    try:
+        mourse = Mourse.objects.get(slug=slug)
+    except Mourse.DoesNotExist:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+
+    if request.method == 'DELETE':
+        operation = mourse.delete()
+        data = {}
+        if operation:
+            data['success'] = 'Your Mouse has been deleted!'
+            return redirect('/my_mourse')
+        else:
+            data['failure'] = 'Your Mouse has NOT been deleted!'
+        return Response(data=data)
+
