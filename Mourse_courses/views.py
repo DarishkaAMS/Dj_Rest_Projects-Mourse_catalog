@@ -6,10 +6,9 @@ from my_mourse.models import Mourse
 
 
 def home_page_view(request):
-    my_title = "Hello there..."
+    my_title = "Welcome to Mourse Courses"
     qs = Mourse.objects.all()[:5]
-    context = {"title": "Welcome to Mourse Courses", "mourse_list": qs}
-    # if request.user.is_authenticated:
-    #     context = {"title": my_title, "my_list": [1, 2, 3, 4, 5]}
+    context = {"title": my_title, "mourse_list": qs}
+
     return render(request, "home.html", context)
 
