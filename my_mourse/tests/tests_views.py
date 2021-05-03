@@ -11,15 +11,15 @@ class TestViews(TestCase):
 
     def setUp(self):
         self.client = Client()
-        # self.user = User.objects.get(pk=1)
+        self.user = User.objects.get(pk=1)
         self.home_url = reverse('mourse_home')
-        # self.detail_url = reverse('mourse_details', args=['dummy_mourse'])
-        # self.dummy_mourse = Mourse.objects.create(
-        #     title='dummy-title',
-        #     user=self.user,
-        #     content='Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        #     q_lectures=5
-        # )
+        self.detail_url = reverse('mourse_details', args=['dummy_mourse'])
+        self.dummy_mourse = Mourse.objects.create(
+            title='dummy-title',
+            user=self.user,
+            content='Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            q_lectures=5
+        )
 
     def test_list_view_GET(self):
         response = self.client.get(self.home_url)

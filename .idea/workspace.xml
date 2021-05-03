@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add MIT License desc">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update title @ home">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/tests/tests_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/tests/tests_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619969861020</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Update title @ home">
+      <created>1620012204742</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1620012204742</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,7 +409,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update models.py" />
     <MESSAGE value="Update all models and views" />
     <MESSAGE value="Setup urls" />
     <MESSAGE value="Add favicon" />
@@ -425,6 +433,7 @@
     <MESSAGE value="Update PositiveIntegerField @ models" />
     <MESSAGE value="Add view tests" />
     <MESSAGE value="Add MIT License desc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add MIT License desc" />
+    <MESSAGE value="Update title @ home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update title @ home" />
   </component>
 </project>
