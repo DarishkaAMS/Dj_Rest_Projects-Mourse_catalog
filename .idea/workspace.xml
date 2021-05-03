@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add JsonResponse @ mourse list &amp; detail">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update JsonResponse @ mourse list &amp; detail">
+      <change afterPath="$PROJECT_DIR$/TODELETE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_mourse/api_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_mourse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,32 +47,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Casmena" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my_mourse" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\my_mourse\api" />
       <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\Mourse_courses" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\my_mourse" />
+      <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\my_mourse\api" />
       <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\searches" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00002" summary="Fix gitignore">
-      <created>1619583251960</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1619583251960</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add class Mourse">
-      <created>1619583892375</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1619583892375</updated>
-    </task>
     <task id="LOCAL-00004" summary="Add class Mourse">
       <created>1619583912056</created>
       <option name="number" value="00004" />
@@ -405,7 +398,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620047289425</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Update JsonResponse @ mourse list &amp; detail">
+      <created>1620048557156</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1620048557157</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Update JsonResponse @ mourse list &amp; detail">
+      <created>1620048622718</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1620048622718</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,7 +429,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update mourse detail view" />
     <MESSAGE value="Update mourse detail page" />
     <MESSAGE value="Update update &amp; delete mourse page" />
     <MESSAGE value="Style update page" />
@@ -447,6 +453,7 @@
     <MESSAGE value="Complete tests_urls.py" />
     <MESSAGE value="Add setyp &amp; test_list_view_GET @ tests_views.py" />
     <MESSAGE value="Add JsonResponse @ mourse list &amp; detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JsonResponse @ mourse list &amp; detail" />
+    <MESSAGE value="Update JsonResponse @ mourse list &amp; detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update JsonResponse @ mourse list &amp; detail" />
   </component>
 </project>
