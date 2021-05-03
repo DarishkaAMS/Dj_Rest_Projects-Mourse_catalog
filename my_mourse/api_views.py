@@ -31,20 +31,16 @@ def mourse_list_view(request):
         return Response(serializer.data)
 
 
-@staff_member_required
-# @login_required
+@api_view(["POST", ])
+@csrf_exempt
 def mourse_create_view(request):
-    form = MourseModelForm(request.POST or None, request.FILES or None)
-    if form.is_valid():
-        obj = form.save(commit=False)
-        obj.user = request.user
-        obj.save()
-        form = MourseModelForm()
-        messages.success(request, 'Your Mouse has been created successfully!')
-        return redirect('/my_mourse')
-    template_name = "form.html"
-    context = {"form": form}
-    return render(request, template_name, context)
+    mourse = Mourse()
+    if request.method == "POST":
+        serializer = MourseSerializer(mourse, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 @api_view(["GET", ])
@@ -96,4 +92,3 @@ def mourse_delete_view(request, slug):
         else:
             data['failure'] = 'Your Mouse has NOT been deleted!'
         return Response(data=data)
-

@@ -11,20 +11,13 @@ User = settings.AUTH_USER_MODEL
 
 
 class MourseQuerySet(models.QuerySet):
-    # def published(self):
-    #     now = timezone.now()
-    #     return self.filter(publish_date__lte=now)
 
     def search(self, query):
         lookup = (
                 Q(title__icontains=query) |
-                # Q(content__icontains=query) |
                 Q(slug__icontains=query) |
                 Q(start_date__icontains=query) |
                 Q(end_date__icontains=query)
-                # | Q(user__first_name__icontains=query) |
-                # Q(user__last_name__icontains=query) |
-                # Q(user__username__icontains=query)
                     )
 
         return self.filter(lookup)
@@ -33,9 +26,6 @@ class MourseQuerySet(models.QuerySet):
 class MourseManager(models.Manager):
     def get_queryset(self):
         return MourseQuerySet(self.model, using=self._db)
-    # 
-    # def published(self):
-    #     return self.get_queryset().published()
 
     def search(self, query=None):
         if query is None:

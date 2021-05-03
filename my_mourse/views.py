@@ -36,7 +36,7 @@ def mourse_create_view(request):
     template_name = "form.html"
     context = {"form": form}
     return render(request, template_name, context)
-#
+
 
 def mourse_detail_view(request, slug):
     obj = get_object_or_404(Mourse, slug=slug)
