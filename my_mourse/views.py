@@ -21,10 +21,6 @@ from .serializers import MourseSerializer
 @csrf_exempt
 # @permission_classes([IsAuthenticated])
 def mourse_list_view(request):
-    # # user = request.user.id
-    # mourses = Mourse.objects.all()
-    # serializer = MourseSerializer(mourses, many=True)
-    # return JsonResponse({'mourses': serializer.data}, safe=False, status=status.HTTP_200_OK)
     try:
         mourse = Mourse.objects.all()
     except Mourse.DoesNotExist:
