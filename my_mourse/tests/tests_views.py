@@ -1,6 +1,7 @@
 import json
 
-from django.contrib.auth.models import User
+from django.conf import settings
+from django.contrib.auth import get_user_model
 from django.test import TestCase, Client
 from django.urls import reverse
 
@@ -11,12 +12,11 @@ class TestViews(TestCase):
 
     def setUp(self):
         self.client = Client()
-        self.user = User.objects.get(pk=1)
         self.home_url = reverse('mourse_home')
         self.detail_url = reverse('mourse_details', args=['dummy_mourse'])
         self.dummy_mourse = Mourse.objects.create(
-            title='dummy-title',
-            user=self.user,
+            title='dummy_mourse',
+            user=get_user_model().objects.first(),
             content='Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
             q_lectures=5
         )
