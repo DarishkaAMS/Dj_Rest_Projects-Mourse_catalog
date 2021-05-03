@@ -14,6 +14,7 @@ class TestViews(TestCase):
         self.client = Client()
         self.home_url = reverse('mourse_home')
         self.detail_url = reverse('mourse_details', args=['dummy_mourse'])
+        self.update_url = reverse('update_mourse', args=['dummy_mourse'])
         self.dummy_mourse = Mourse.objects.create(
             title='dummy_mourse',
             user=get_user_model().objects.first(),
@@ -23,12 +24,24 @@ class TestViews(TestCase):
 
     def test_list_view_GET(self):
         response = self.client.get(self.home_url)
-        print('LIST VIEW')
+        # print('LIST VIEW')
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, "my_mourse/mourse_list.html")
 
-    # def test_mourse_detail_view_GET(self):
-    #     response = self.client.get(self.detail_url)
-    #     print('DETAIL VIEW')
-    #     self.assertEquals(response.status_code, 200)
-    #     self.assertTemplateUsed(response, "my_mourse/mourse_page_detail.html")
+    def test_mourse_detail_view_GET(self):
+        response = self.client.get(self.detail_url)
+        # print('DETAIL VIEW')
+        self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, "my_mourse/mourse_page_detail.html")
+
+    # def test_mourse_update_view_POST(self):
+        # print("Mourse", self.dummy_mourse.title)
+        # self.dummy_mourse.title = "dummy_mourse_changed"
+        # print("Mourse", self.dummy_mourse.title)
+        # response = self.client.post(self.update_url, {
+        #     'title': 'dummy_mourse_changed'
+            # self.dummy_mourse.title: 'dummy_mourse_changed'
+        # })
+        # self.assertEquals(response.status_code, 302)
+        # self.assertEquals(self.dummy_mourse.title, 'dummy_mourse_changed')
+
