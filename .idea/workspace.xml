@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update JsonResponse @ create view">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add test_mourse_is_assigned_slug_on_creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/tests/tests_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/tests/tests_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/tests/tests_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/tests/tests_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/tests/tests_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/tests/tests_views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619621653632</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Style pagination">
-      <created>1619626399529</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1619626399529</updated>
     </task>
     <task id="LOCAL-00010" summary="Style search">
       <created>1619626452874</created>
@@ -408,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620056492359</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Add test_mourse_is_assigned_slug_on_creation">
+      <created>1620057502909</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1620057502909</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -425,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add search option" />
     <MESSAGE value="Style all pages" />
     <MESSAGE value="Clean JS" />
     <MESSAGE value="Style form &amp; search" />
@@ -450,6 +451,7 @@
     <MESSAGE value="Update JsonResponse @ mourse delete" />
     <MESSAGE value="Update JsonResponse @ home" />
     <MESSAGE value="Update JsonResponse @ create view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update JsonResponse @ create view" />
+    <MESSAGE value="Add test_mourse_is_assigned_slug_on_creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test_mourse_is_assigned_slug_on_creation" />
   </component>
 </project>

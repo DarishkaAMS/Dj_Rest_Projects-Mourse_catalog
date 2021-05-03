@@ -33,15 +33,3 @@ class TestViews(TestCase):
         # print('DETAIL VIEW')
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, "my_mourse/mourse_page_detail.html")
-
-    # def test_mourse_update_view_POST(self):
-        # print("Mourse", self.dummy_mourse.title)
-        # self.dummy_mourse.title = "dummy_mourse_changed"
-        # print("Mourse", self.dummy_mourse.title)
-        # response = self.client.post(self.update_url, {
-        #     'title': 'dummy_mourse_changed'
-            # self.dummy_mourse.title: 'dummy_mourse_changed'
-        # })
-        # self.assertEquals(response.status_code, 302)
-        # self.assertEquals(self.dummy_mourse.title, 'dummy_mourse_changed')
-
