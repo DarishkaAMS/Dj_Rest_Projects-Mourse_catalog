@@ -8,10 +8,6 @@ from django.shortcuts import redirect, render, get_object_or_404
 from django.template.loader import get_template
 from django.views.decorators.csrf import csrf_exempt
 
-# from rest_framework import status
-# from rest_framework.response import Response
-# from rest_framework.decorators import api_view, permission_classes
-
 from my_mourse.forms import MourseForm, MourseModelForm
 from my_mourse.models import Mourse
 

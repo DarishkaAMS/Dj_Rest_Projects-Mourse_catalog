@@ -17,7 +17,8 @@ from django.conf import settings
 from django.contrib import admin
 from django.urls import include, path, re_path
 
-from .views import home_page_view
+# api_views views
+from .api_views import home_page_view
 from searches.views import search_view
 
 
