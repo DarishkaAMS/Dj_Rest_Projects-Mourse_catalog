@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update JsonResponse @ home">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update JsonResponse @ create view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/api_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/tests/tests_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/tests/tests_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619621653632</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Fix Pagination">
-      <created>1619623847425</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1619623847425</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Add cards">
-      <created>1619625713927</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1619625713927</updated>
     </task>
     <task id="LOCAL-00009" summary="Style pagination">
       <created>1619626399529</created>
@@ -411,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620054014568</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Update JsonResponse @ create view">
+      <created>1620056404083</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1620056404083</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Update JsonResponse @ create view">
+      <created>1620056492359</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1620056492359</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +425,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Style delete page" />
     <MESSAGE value="Add search option" />
     <MESSAGE value="Style all pages" />
     <MESSAGE value="Clean JS" />
@@ -453,6 +449,7 @@
     <MESSAGE value="Update JsonResponse @ mourse update" />
     <MESSAGE value="Update JsonResponse @ mourse delete" />
     <MESSAGE value="Update JsonResponse @ home" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update JsonResponse @ home" />
+    <MESSAGE value="Update JsonResponse @ create view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update JsonResponse @ create view" />
   </component>
 </project>
