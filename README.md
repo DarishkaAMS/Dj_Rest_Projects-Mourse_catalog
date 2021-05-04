@@ -48,6 +48,13 @@ from my_mourse.views import (mourse_create_view,
                                  mourse_update_view)
 
 ### Розгортання та запуск
+Потребує вдосконалення для якісного розрогтання:
+- підготовлені та виокремлені settings, зокрема:
+    - DEBUG
+    - ALLOWED_HOSTS
+    - WSGI_APPLICATION
+- підготовленний wsgi.py 
+- __init__.py поки що прибраний навмисно
 
 ### Ліцензія
 [MIT](https://choosealicense.com/licenses/mit/)
