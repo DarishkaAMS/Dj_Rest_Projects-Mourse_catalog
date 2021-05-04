@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add environ">
-      <change afterPath="$PROJECT_DIR$/Mourse_courses/settings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mourse_courses/settings/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mourse_courses/settings/dev.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mourse_courses/settings/prod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Check --deployment">
       <change beforePath="$PROJECT_DIR$/Mourse_courses/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_courses/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619621653632</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Add mourse delete">
-      <created>1619672297008</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1619672297008</updated>
     </task>
     <task id="LOCAL-00019" summary="Update models.py">
       <created>1619751312997</created>
@@ -414,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620098196366</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Check --deployment">
+      <created>1620099507204</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1620099507204</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Style delete" />
     <MESSAGE value="Add requirements" />
     <MESSAGE value="Add urls tests" />
     <MESSAGE value="Add test_list_view_GET" />
@@ -456,6 +450,7 @@
     <MESSAGE value="Collect static" />
     <MESSAGE value="Update settings location and split" />
     <MESSAGE value="Add environ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add environ" />
+    <MESSAGE value="Check --deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check --deployment" />
   </component>
 </project>
