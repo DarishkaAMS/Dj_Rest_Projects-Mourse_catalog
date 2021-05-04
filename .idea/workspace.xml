@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Check --deployment">
+      <change afterPath="$PROJECT_DIR$/Mourse_courses/settings/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mourse_courses/settings/dev.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mourse_courses/settings/prod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mourse_courses/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_courses/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mourse_courses/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_courses/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +47,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django_Projects-Dentist_Web_Site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mourse_courses/settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\Mourse_courses\settings" />
       <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\Mourse_courses" />
       <recent name="D:\DJANGO\Django_Projects-Mourse_catalog\my_mourse\api" />
     </key>
@@ -65,13 +71,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619621653632</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Update models.py">
-      <created>1619751312997</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1619751312997</updated>
     </task>
     <task id="LOCAL-00020" summary="Update all models and views">
       <created>1619760919744</created>
@@ -409,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620099507204</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Check --deployment">
+      <created>1620099740363</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1620099740364</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
