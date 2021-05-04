@@ -7,7 +7,7 @@
         {% if request.user.is_authenticated %}
             {% if request.user.is_staff %}
                 <div class="col-12">
-                    <a class="btn btn-outline-success my-2 my-sm-0" role="button" href="{{ object.get_edit_url }}"> Edit </a>
+                    <a class="btn btn-outline-success my-2 my-sm-0" role="button" href="{{ object.get_edit_url }}"> Update </a>
                     <a class="btn btn-outline-danger my-2 my-sm-0" role="button" href="{{ object.get_delete_url }}"> Delete </a>
                 </div>
             {% endif %}

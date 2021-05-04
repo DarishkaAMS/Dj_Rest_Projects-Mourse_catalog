@@ -56,7 +56,7 @@ class Mourse(models.Model):
         return f"/my_mourse/{self.slug}"
 
     def get_edit_url(self):
-        return f"{self.get_absolute_url()}/edit"
+        return f"{self.get_absolute_url()}/update"
 
     def get_delete_url(self):
         return f"{self.get_absolute_url()}/delete"
