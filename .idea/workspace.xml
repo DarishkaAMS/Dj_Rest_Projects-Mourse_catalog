@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add test_mourse_form_valid_data">
-      <change beforePath="$PROJECT_DIR$/my_mourse/tests/tests_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/tests/tests_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619621653632</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Add favicon">
-      <created>1619628162727</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1619628162727</updated>
     </task>
     <task id="LOCAL-00013" summary="Reconnect db">
       <created>1619666331771</created>
@@ -407,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620058167937</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Add test_mourse_form_valid_data">
+      <created>1620058489025</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1620058489025</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
