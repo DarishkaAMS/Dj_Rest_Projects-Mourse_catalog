@@ -22,7 +22,7 @@ def mourse_list_view(request):
     return render(request, template_name, context)
 
 
-@staff_member_required
+# @staff_member_required
 # @login_required
 def mourse_create_view(request):
     form = MourseModelForm(request.POST or None, request.FILES or None)
@@ -45,7 +45,7 @@ def mourse_detail_view(request, slug):
     return render(request, template_name, context)
 
 
-@staff_member_required
+# @staff_member_required
 def mourse_update_view(request, slug):
     obj = get_object_or_404(Mourse, slug=slug)
     form = MourseModelForm(request.POST or None, instance=obj)
@@ -58,7 +58,7 @@ def mourse_update_view(request, slug):
     return render(request, template_name, context)
 
 
-@staff_member_required
+# @staff_member_required
 def mourse_delete_view(request, slug):
     obj = get_object_or_404(Mourse, slug=slug)
     template_name = "my_mourse/mourse_delete.html"

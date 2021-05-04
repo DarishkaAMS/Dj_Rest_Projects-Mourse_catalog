@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Complete wsdi.py">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +69,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619621653632</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Setup urls">
-      <created>1619768289961</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1619768289961</updated>
     </task>
     <task id="LOCAL-00022" summary="Add favicon">
       <created>1619768704980</created>
@@ -412,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620106197355</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Add README.md">
+      <created>1620109365977</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1620109365978</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +430,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add urls tests" />
     <MESSAGE value="Add test_list_view_GET" />
     <MESSAGE value="Add info @ home &amp; detail page" />
     <MESSAGE value="update models" />
@@ -454,6 +454,7 @@
     <MESSAGE value="Add environ" />
     <MESSAGE value="Check --deployment" />
     <MESSAGE value="Complete wsdi.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete wsdi.py" />
+    <MESSAGE value="Add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add README.md" />
   </component>
 </project>
