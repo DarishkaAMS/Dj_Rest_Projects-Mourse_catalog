@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Update settings location and split">
+    <list default="true" id="994f8d00-3db0-482e-a614-ad3212dda365" name="Default Changelist" comment="Add environ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_courses/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mourse_courses/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_courses/settings/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_courses/settings/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_courses/settings/dev.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mourse_courses/settings/prod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/templates/my_mourse/mourse_page_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_mourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_mourse/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mourse_courses" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django_Projects-Dentist_Web_Site" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619621653632</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Add mourse update">
-      <created>1619669885695</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1619669885695</updated>
     </task>
     <task id="LOCAL-00017" summary="Style mourse update">
       <created>1619670694004</created>
@@ -417,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620096747248</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Add environ">
+      <created>1620097623326</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1620097623326</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -434,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Style alert" />
     <MESSAGE value="Style delete" />
     <MESSAGE value="Add requirements" />
     <MESSAGE value="Add urls tests" />
@@ -459,6 +451,7 @@
     <MESSAGE value="Update requirements.txt" />
     <MESSAGE value="Collect static" />
     <MESSAGE value="Update settings location and split" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update settings location and split" />
+    <MESSAGE value="Add environ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add environ" />
   </component>
 </project>
